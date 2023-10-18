@@ -1,6 +1,10 @@
 {
   "name": "mean-stack",
   "version": "0.0.0",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
   "private": true,
   "dependencies": {
     "bcryptjs": "^2.4.3",
